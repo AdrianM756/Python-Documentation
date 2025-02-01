@@ -9,7 +9,7 @@ number1 = input(Enter the first number: )
 number2 = input(Enter the second number: )
 
 /// Combined the user input that is stored on the variable number1 and number2.
-ans = int(number1 + number2)
+ans = int(number1) + int(number2)
 
 ///  Output the result from the ans variable.
 print(ans)
