@@ -55,6 +55,25 @@ value1 = ["20", "41", "34"]
 value1[2] = 57
 print(value1[2])
 ```
+<br>
+
+## list.extend
+
+***Question:*** What if  I want to combined a list to another list? is it possible?
+<br>
+
+***Answer:*** Yes. For that, we will use the [extend() method](https://www.w3schools.com/python/ref_list_extend.asp). For example:
+
+```
+value1 = ["20", "41", "34"]
+value2 = ["roy", "james", "carl"]\
+
+### Use the extend() method to combine the value1 and value2
+value1.extend(value2)
+
+print(value1)
+
+
 
 
 
