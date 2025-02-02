@@ -39,7 +39,12 @@ print(value1[1])
 
 ```
 value1 = ["20", "41", "34"]
-print(value1[1:]
+print(value1[1:])
+```
+
+When run, the result will be:
+```
+['41', '34']
 ```
 <br>
 
@@ -55,6 +60,25 @@ value1 = ["20", "41", "34"]
 value1[2] = 57
 print(value1[2])
 ```
+When run, the result will be: ```57```
+<br>
+
+***Answer:*** Another way of modifying a list is by using the [append() method](https://www.w3schools.com/python/ref_list_append.asp). The append() method is ****always**** going to add the value on the end of the list. below is the examle code:
+
+```
+value1 = ["20", "41", "34"]
+
+### Add the value 14 on the list.
+value1.append("14")
+
+print(value1)
+
+```
+When run, the result will be:
+
+```
+['20', '41', '34', '14']
+```
 <br>
 
 ## list.extend
@@ -66,13 +90,20 @@ print(value1[2])
 
 ```
 value1 = ["20", "41", "34"]
-value2 = ["roy", "james", "carl"]\
+value2 = ["roy", "james", "carl"]
 
 ### Use the extend() method to combine the value1 and value2
 value1.extend(value2)
 
 print(value1)
+```
+<br>
 
+When run, the result will be:
+
+```
+['20', '41', '34', 'roy', 'james', 'carl']
+```
 
 
 
