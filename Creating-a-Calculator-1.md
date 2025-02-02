@@ -4,21 +4,21 @@
 For this demo, we will be creating a simmple calculator. below is the code:
 
 ```
-/// Creating the variable number1 and number2 to store the user input.
+### Creating the variable number1 and number2 to store the user input.
 number1 = input(Enter the first number: )
 number2 = input(Enter the second number: )
 
-/// Combined the user input that is stored on the variable number1 and number2.
+### Combined the user input that is stored on the variable number1 and number2.
 ans = int(number1) + int(number2)
 
-///  Output the result from the ans variable.
+###  Output the result from the ans variable.
 print(ans)
 
 ```
 
 <br>
 
-The ``` /// ``` is used to write a comment or a description. We can also use ```#``` alternatively.
+The ``` ### ``` is used to write a comment or a description.
 <br>
 
 The variables ```number1``` and ```number2``` is used to store the the user input.
