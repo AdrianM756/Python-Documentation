@@ -149,6 +149,23 @@ Using the ```insert()``` method, we will first specify the index position. In th
 ```
 <br>
 
+### list.copy
+
+***Question:*** Can we create a copy of the list that we've created?
+<br>
+
+***Answer:*** Yes. We can achieve that using the the [copy()](https://www.w3schools.com/python/python_lists_copy.asp) method. For example:
+
+```
+value1 = ["roy", "james", "carl"]
+
+### Use the copy() method to copy the list.
+
+value2 = value1.copy()
+
+print(value2)
+```
+<br>
 
 
 
