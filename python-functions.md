@@ -2,8 +2,9 @@
 
 [function](https://www.w3schools.com/python/python_functions.asp) is a collection of code which only runs when it is called.
 <br>
+<br>
 
-##def
+## def()
 
 ```def()``` is used to define a function that we want to use. For example:
 
