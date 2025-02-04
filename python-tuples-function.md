@@ -6,6 +6,6 @@
 ***Question:*** What's the difference between ```tuples()``` and the ```list``` function?
 <br>
 
-***Answer:*** tuples is **inmutable** meanning the value inside it is unchangeable. Another difference is the ```list()``` function uses ```()``` while the ```tuples()``` function use ```()```.
+***Answer:*** tuples is **inmutable** meanning the value inside it is unchangeable. Another difference is the ```list()``` function uses ```[]``` while the ```tuples()``` function use ```()```.
 
 
