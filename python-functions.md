@@ -56,8 +56,26 @@ favorite(Germany = "Mercedes", US = "Ford", Japanese = "Toyota")
 ```
 <br>
 
+## Return statements
 
+[Return Statements](https://realpython.com/python-return-statement/) allow us to return a value back to the caller. It  consist of the ```return``` keyword followed by an optional value. For example:
+<br>
 
+```
+def multiply(num):
+  return 4 * num
+
+print(multiply(4), multiply(3))
+```
+<br>
+
+***result:***
+```
+16 12
+```
+<br>
+
+In addition, adding additional code after the ```return``` keyword will not be executed because it will break us out of the function.
 
 
 
