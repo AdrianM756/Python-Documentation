@@ -48,7 +48,7 @@ When run, the result will be:
 ```
 <br>
 
-## Modifying value inside a list
+## Modifying a value inside a list
 
 ***Question:*** Can we modify a value inside a list?
 <br>
@@ -81,6 +81,25 @@ When run, the result will be:
 ```
 <br>
 
+***Answer:*** If you want to remove a value to a particular list, you can use the [remove()](https://www.w3schools.com/python/ref_list_remove.asp) method. example:
+
+```
+value1 = ["20", "41", "34"]
+
+### remove the value 14 on the list.
+value1.remove("41")
+
+print(value1)
+```
+
+When run, the result will be:
+
+```
+['20', '34']
+```
+<br>
+
+
 ## list.extend
 
 ***Question:*** What if  I want to combined a list to another list? is it possible?
@@ -104,7 +123,31 @@ When run, the result will be:
 ```
 ['20', '41', '34', 'roy', 'james', 'carl']
 ```
+<br>
 
+## list.insert
+
+***Question:*** What if i want to add a value to my desired index position on the list?
+<br>
+
+***Answer:*** We can use the the [insert() method](https://www.w3schools.com/python/ref_list_insert.asp). For example,
+
+```
+value1 = ["roy", "james", "carl"]
+
+### Use the insert() method to add a value on your desired index position
+value1.insert(1, "luke")
+
+print(value1)
+```
+<br>
+
+Using the ```insert()``` method, we will first specify the index position. In this case, it will the index position of ```1```. Follow with a comma(```,```) we will then input the value(```luke```). The result will be similar to this:
+
+```
+['roy', 'luke', 'james', 'carl']
+```
+<br>
 
 
 
