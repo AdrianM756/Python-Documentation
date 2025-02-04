@@ -12,14 +12,20 @@
 Here is an example using ```if```, ```elif```, and ```else``` statements:
 
 ```
-num1 = 500
-num2 = 200
+num1 = int(200)
+num2 = int(500)
+
+## If num2 is greater than num1.
 if num2 > num1:
-    print(str(num2) + " is greater than " + str(num1))
+    print(str(num2) +  " is greater than " + str(num1))
+
+## If num2 and num1 is equal
 elif num2 == num1:
-    print (str(num2) + " is equal to " + str(num1))
+    print(str(num2) + " is equal to " + str(num1))
+
+## If the previous conditions was not met 
 else:
-    print(str(num1) + " is greater than " + str(num2))
+    print(str(num2) + " is less than " + str(num1))
 ```
 <br>
 
