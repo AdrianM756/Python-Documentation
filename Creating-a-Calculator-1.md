@@ -1,4 +1,4 @@
-## Creating a simple Calculator
+## Creating a Calculator 1
 <br>
 
 For this demo, we will be creating a simmple calculator. below is the code:
