@@ -15,6 +15,11 @@ while ans <= 10:
 print("loop is done")
 
 ```
+<br>
 
+***Question:*** How is it different to **For Loop**?
+<br>
+
+***Answer:*** A **While Loop** is a loop that repeats the code **without** a specified number of times. On the other hand, **For Loop** is a loop that **repeats the code with a specified number of times**.
 
 
